@@ -1,0 +1,34 @@
+.parent {
+  display: flex;
+  background-color: black;
+  min-height: 50vh;
+  position: relative;
+}
+.cards {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-50%);
+  gap: 20px;
+}
+.child-one {
+  background-color: aqua;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+.child-two {
+  background-color: azure;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+.child-three {
+  background-color: bisque;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
