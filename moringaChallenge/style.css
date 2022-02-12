@@ -1,0 +1,23 @@
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-image: url("./images/hero.png");
+  min-height: 100vh;
+}
+.header {
+  grid-column: 1 / 6;
+}
+.header-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.header-list h1 {
+}
+.header-list button {
+  padding: 20px;
+  background-color: blue;
+}
+.main-content {
+  grid-column: 1 / 6;
+}
