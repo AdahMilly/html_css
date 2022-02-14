@@ -1,23 +1,53 @@
 .parent {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
   background-image: url("./images/hero.png");
   min-height: 100vh;
+  position: relative;
+  background-position: center;
+  background-size: cover;
 }
 .header {
-  grid-column: 1 / 6;
-}
-.header-list {
   display: flex;
-  list-style: none;
-  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
-.header-list h1 {
+
+.part-one {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
-.header-list button {
-  padding: 20px;
-  background-color: blue;
+
+.part-two {
+  display: flex;
+  align-items: center;
 }
 .main-content {
-  grid-column: 1 / 6;
+  /* grid-column: 1 / 6; */
+}
+.cards {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  /* bottom: 0;
+  left: 0;
+  right: 0; */
+  background-color: white;
+  transform: translateY(-50%);
+}
+
+.child-one {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.child-two {
+  width: 100px;
+  height: 100px;
+}
+
+.child-three {
+  width: 100px;
+  height: 100px;
 }
