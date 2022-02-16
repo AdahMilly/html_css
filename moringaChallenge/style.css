@@ -1,7 +1,6 @@
 .parent {
   background-image: url("./images/hero.png");
   min-height: 100vh;
-  position: relative;
   background-position: center;
   background-size: cover;
 }
@@ -22,30 +21,26 @@
   align-items: center;
 }
 .cards {
-  position: absolute;
   display: flex;
   justify-content: space-evenly;
   gap: 20px;
-  left: 0;
-  right: 0;
-  background-color: white;
   transform: translateY(-50%);
 }
 
 .child-one {
-  width: 100px;
-  height: 100px;
-  background-color: red;
+  min-width: 200px;
+  min-height: 200px;
+  background-color: azure;
 }
 
 .child-two {
-  width: 100px;
+  width: 200px;
   height: 100px;
   background-color: azure;
 }
 
 .child-three {
-  width: 100px;
+  width: 200px;
   height: 100px;
   background-color: azure;
 }
