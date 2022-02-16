@@ -21,17 +21,13 @@
   display: flex;
   align-items: center;
 }
-.main-content {
-  /* grid-column: 1 / 6; */
-}
 .cards {
   position: absolute;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 20px;
-  /* bottom: 0;
   left: 0;
-  right: 0; */
+  right: 0;
   background-color: white;
   transform: translateY(-50%);
 }
@@ -45,9 +41,11 @@
 .child-two {
   width: 100px;
   height: 100px;
+  background-color: azure;
 }
 
 .child-three {
   width: 100px;
   height: 100px;
+  background-color: azure;
 }
