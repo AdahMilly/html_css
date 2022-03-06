@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap");
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: lightgrey;
+}
+.section-1 {
+  position: relative;
+  background-image: url("./images/hero.png");
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+}
+.header {
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 20px;
+}
+
+.middle-section {
+  display: flex;
+  gap: 30px;
+}
+.login {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.login .btn {
+  background-color: #23a6f0;
+  border-style: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 20px;
+}
+.into-container {
+  display: flex;
+  justify-content: center;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+}
+.intro h1 {
+  font-size: 50px;
+}
+.intro p {
+  font-size: 20px;
+}
+.bttn {
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+.bttn button {
+  border-radius: 30px;
+  padding: 20px 30px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn-1 {
+  background-color: #23a6f0;
+  border-style: none;
+}
+.btn-2 {
+  background-color: transparent;
+  border: 2px solid white;
+}
+.cards {
+  position: absolute;
+  display: flex;
+  gap: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(50%);
+  justify-content: center;
+}
+.child-one {
+  background-color: white;
+  width: 250px;
+  height: 150px;
+  padding: 20px;
+}
+.child-two {
+  background-color: white;
+  width: 250px;
+  height: 150px;
+  padding: 20px;
+}
+.child-three {
+  background-color: #23a6f0;
+  width: 250px;
+  height: 150px;
+  padding: 20px;
+}
+.ppl {
+  color: white;
+  height: 50px;
+  width: 50px;
+}
+.ppl1 {
+  color: #23a6f0;
+  height: 50px;
+  width: 50px;
+}
