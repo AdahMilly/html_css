@@ -3,7 +3,7 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background-color: lightgrey;
+  background-color: #fbfcfb;
 }
 .section-1 {
   position: relative;
@@ -179,4 +179,47 @@ body {
   display: flex;
   justify-content: center;
   color: orange;
+}
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.logos img {
+  width: 50px;
+  height: 50px;
+  color: black;
+}
+.subscription-form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  height: 10vh;
+  width: 100%;
+  color: white;
+  background: linear-gradient(to right, rgb(7, 7, 87), #b00cf4);
+}
+.subscription-form p {
+  color: white;
+  font-size: 20px;
+}
+.form {
+  display: flex;
+}
+.form input {
+  padding: 15px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-style: none;
+}
+
+.form button {
+  padding: 15px, 20px;
+  border-style: none;
+  background-color: #23a6f0;
+  color: white;
+  font-size: 20px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
