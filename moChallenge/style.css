@@ -208,18 +208,79 @@ body {
   display: flex;
 }
 .form input {
-  padding: 15px;
+  padding: 25px;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
   border-style: none;
 }
 
 .form button {
-  padding: 15px, 20px;
+  padding: 15px 20px;
   border-style: none;
   background-color: #23a6f0;
   color: white;
   font-size: 20px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+.pricings {
+  display: flex;
+  flex-direction: column;
+}
+.p-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.pricing-rates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+.pricing-rates .free,
+.pricing-rates .standard,
+.pricing-rates .premium {
+  border: 1px solid #23a6f0;
+  border-radius: 10px;
+  padding: 20px;
+  width: 360px;
+}
+.pricing-rates .free,
+.pricing-rates .premium {
+  margin-top: 30px;
+  color: black;
+}
+.pricing-rates .standard {
+  background-color: #252b42;
+}
+.pricing-rates .standard p {
+  color: white;
+}
+.pricing-rates .standard h1 {
+  color: white;
+}
+.pricing-rates button {
+  display: flex;
+  padding: 15px 20px;
+  background-color: #23a6f0;
+  color: white;
+  justify-content: center;
+  font-size: 15px;
+  border-style: none;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 20px;
+}
+.options {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.amount {
+  display: flex;
+  justify-content: center;
 }
