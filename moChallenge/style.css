@@ -284,3 +284,66 @@ body {
   display: flex;
   justify-content: center;
 }
+.location-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: #252b42;
+
+  margin-top: 50px;
+  height: 70vh;
+}
+.location-description {
+  display: flex;
+  justify-content: center;
+  padding: 40px 39px;
+}
+.registration-form {
+  display: flex;
+  position: absolute;
+  background-color: white;
+  bottom: 0;
+  transform: translateY(50%);
+  height: 500px;
+  width: 800px;
+  gap: 20px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 70%;
+  padding: 20px;
+  height: 100%;
+}
+.contact-form h2 {
+  display: flex;
+  justify-content: center;
+}
+.contact-form input,
+select {
+  padding: 20px;
+}
+.fam-img {
+  width: 30%;
+  height: 100%;
+}
+.fam-img img {
+  width: 100%;
+  height: 100%;
+}
+.contact-form button {
+  padding: 15px 20px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #23a6f0;
+  color: white;
+}
+.leftside p,
+h1 {
+  color: white;
+}
+.rightside img {
+  height: 40%;
+  width: 60%;
+}
